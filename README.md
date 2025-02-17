@@ -1,31 +1,31 @@
-# Product Management Application
+#📦 Product Management Application
 
 This is a full-stack web application designed for managing products in an inventory or store. The application allows users to create, read, update, and delete products from the database. Built using Spring Boot for the backend, Thymeleaf for the frontend, and a MySQL database for storage, the system can track multiple product attributes such as name, brand, category, price, and creation date.
 
-## Features
+##⚙️ Features
 
 - **CRUD Operations**: 
-  - Create, read, update, and delete products.
+  -📝 Create,📖 read,✏️ update, and❌ delete products.
 - **Product Listing**:
-  - View products in a tabular format with details like ID, name, brand, category, price, image, and creation date.
+  -🖥️ View products in a tabular format with details like ID, name, brand, category, price, image, and creation date.
 - **Image Handling**: 
-  - Upload and display product images.
+  -📸 Upload and display product images.
 - **Confirmation Dialogs**: 
-  - Delete action is protected with a confirmation dialog.
+  -🚨 Delete action is protected with a confirmation dialog.
 - **Responsive Design**:
-  - Uses Bootstrap for a clean and responsive UI.
+  -📱 Uses Bootstrap for a clean and responsive UI.
 
-## Tech Stack
+##🛠️ Tech Stack
 
 - **Backend**: Java with Spring Boot  
 - **Frontend**: Thymeleaf with HTML, CSS, Bootstrap  
 - **Database**: MySQL  
 - **Tools**:  
-  - Spring Data JPA for database interaction  
-  - Spring Boot DevTools for live reloading  
-  - Bootstrap for styling  
+  -🗄️ Spring Data JPA for database interaction  
+  -🔄 Spring Boot DevTools for live reloading  
+  -🎨 Bootstrap for styling  
 
-## MIT License
+##📝 MIT License
 
 ```bash
 MIT License
@@ -48,7 +48,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 ```
-### Project Structure
+###🗂️ Project Structure
 ```bash
 ├── src
 │   ├── main
@@ -65,7 +65,7 @@ SOFTWARE.
 ├── pom.xml                      # Project dependencies and build configuration
 └── README.md
 ```
-## More
+##🌐 More
 - **Access the app at**:
 http://localhost:8080
 - **application.properties**:
