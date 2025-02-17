@@ -46,3 +46,34 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+```
+### Project Structure
+```bash
+├── src
+│   ├── main
+│   │   ├── java
+│   │   │   └── com.example.management
+│   │   │       ├── controllers  # Controllers handle HTTP requests and responses
+│   │   │       ├── models       # Domain models representing the database entities
+│   │   │       ├── repositories # Repository interfaces for data access
+│   │   │       └── services     # Business logic
+│   │   ├── resources
+│   │   │   ├── static           # Static assets like CSS, images, and JS
+│   │   │   └── templates        # Thymeleaf templates for the views
+│   └── test                     # Unit and integration tests
+├── pom.xml                      # Project dependencies and build configuration
+└── README.md
+```
+## More
+- **Access the app at**:
+http://localhost:8080
+- **application.properties**:
+```bash
+spring.datasource.url=jdbc:mysql://localhost:3306/management
+spring.datasource.username=YOUR_DB_USERNAME
+spring.datasource.password=YOUR_DB_PASSWORD
+spring.jpa.hibernate.ddl-auto=update
+```
+
+
